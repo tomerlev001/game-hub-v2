@@ -1,5 +1,4 @@
-import { Skeleton, SkeletonText } from "@chakra-ui/react";
-import React from "react";
+import { SkeletonText } from "@chakra-ui/react";
 
 const GenreListSkeleton = () => {
   return <SkeletonText fontSize={"lg"} />;
