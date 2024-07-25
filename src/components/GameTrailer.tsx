@@ -1,10 +1,10 @@
 import useTrailers from "../hooks/useMovies";
 
 interface Props {
-  id: number;
+  gameId: number;
 }
 
-const GameTrailer = ({ id }: Props) => {
+const GameTrailer = ({ gameId: id }: Props) => {
   const { data, error, isLoading } = useTrailers(id);
   if (isLoading) return null;
 
